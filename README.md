@@ -578,6 +578,12 @@ Dialog Content ``role`` attribute:
 
 * Always assigned a value of "document"
 
+
+## Known Issues
+
+* The current codebase does not allow for content that is taller than the page height as there is no interaction with scrollbar. https://github.com/likeastore/ngDialog/wiki/Scroll-Interactivity-Issue
+
+
 ## CDN
 
 _ngDialog_ is available for public on [cdnjs](http://cdnjs.com/libraries/ng-dialog). For example, please use following urls for version ``0.4.0``.
